@@ -1,0 +1,52 @@
+body {
+	background-color: #f4f4f4;
+	margin: 20px;
+}
+
+header {
+}
+
+header h1 {
+	margin-bottom: 0px;
+}
+
+header h3 {
+	margin-top: 5px;
+}
+
+header nav {
+	height: 40px;
+}
+
+header nav ul {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+  list-style: none;
+  padding-left: 0px;
+}
+header nav ul li {
+	line-height: 40px;
+  transition: all 500ms;
+}
+
+header nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #c84451;
+	background-color: #D6D6D6;
+	text-align: center;
+	line-height: 50px;
+}
+
+header nav ul li a:hover {
+	background-color: #c84451;
+	color: white; 
+}
+
+header nav ul .firstItem a {
+	border-radius: 10px 0 0 10px;
+}
+
+header nav ul .lastItem a {
+	border-radius: 0 10px 10px 0;
+}
