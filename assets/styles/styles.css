@@ -81,7 +81,7 @@ header nav ul .lastItem a {
 
 .article {
 	display: grid;
-	grid-template-columns: 20% 80%;
+	grid-template-columns: 25% 75%;
 	background-color: white;
 	padding: 10px;
 
@@ -89,6 +89,7 @@ header nav ul .lastItem a {
 
 .article__info {
 	padding: 10px 20px 0 10px;
+	font-size: 15px;
 }
 
 .content hr {
