@@ -3,6 +3,9 @@ body {
 	margin: 20px;
 }
 
+a:active, a:active * { outline: none !important; -moz-outline-style: none !important; }
+a:focus, a:focus * { outline: none !important; -moz-outline-style: none !important; }
+
 /* Begining header and navbar*/
 
 header h1 {
@@ -138,3 +141,36 @@ header nav ul .lastItem a {
 }
 
 /* Ending bottom_article */
+
+
+/* Beging footer */
+footer {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+footer .social ul {
+	display: flex;
+	list-style: none;
+	justify-content: flex-start;
+	padding-left: 0px;
+}
+
+footer .social ul li a {
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+footer .social ul li a img {
+	width: 50px;
+}
+
+footer .social ul li a img[alt="Facebook icon"] { 
+	border-radius: 17px;
+}
+
+footer .notes {
+	display: flex;
+	justify-content: flex-end;
+}
+/* Ending footer */
