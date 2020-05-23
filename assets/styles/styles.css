@@ -71,3 +71,45 @@ header nav ul .lastItem a {
 	color: #c84451;
 }
 /* Ending hero artcile */
+
+
+/* Beging content */
+.content {
+	background-color: white;
+	border-radius: 22px;
+}
+
+.article {
+	display: grid;
+	grid-template-columns: 20% 80%;
+	background-color: white;
+	padding: 10px;
+
+}
+
+.article__info {
+	padding: 10px 20px 0 10px;
+}
+
+.content hr {
+	width: 95%;
+	height: 5px;
+	background-color: #f4f4f4;
+	border: none;
+	border-radius: 5px;
+}
+
+.content .radius {
+	margin-top: 30px;
+	border-radius: 22px;
+}
+
+.article__info span, .article__content h2, .article__content a {
+	font-weight: 600;
+	color: #c84451;
+}
+
+.article__content a {
+	text-decoration: none;
+}
+/* Ending content */
