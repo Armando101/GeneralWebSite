@@ -3,8 +3,7 @@ body {
 	margin: 20px;
 }
 
-header {
-}
+/* Begining header and navbar*/
 
 header h1 {
 	margin-bottom: 0px;
@@ -12,10 +11,6 @@ header h1 {
 
 header h3 {
 	margin-top: 5px;
-}
-
-header nav {
-	height: 40px;
 }
 
 header nav ul {
@@ -50,3 +45,29 @@ header nav ul .firstItem a {
 header nav ul .lastItem a {
 	border-radius: 0 10px 10px 0;
 }
+
+/* Ending header and navbar*/
+
+/* Begining hero artcile */
+
+.hero {
+	display: grid;
+	grid-template-columns: 70% 30%;
+	background-color: white;
+	border-radius: 5px;
+	padding-left: 20px;
+}
+
+.hero img {
+	align-self: center;
+	width: 90%;
+	height: 60%;
+	border: 3px solid #D6D6D6;
+	padding: 4px;
+	border-radius: 3px;
+}
+
+.hero__info h2 {
+	color: #c84451;
+}
+/* Ending hero artcile */
