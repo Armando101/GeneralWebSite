@@ -114,3 +114,27 @@ header nav ul .lastItem a {
 	text-decoration: none;
 }
 /* Ending content */
+
+
+/* Beging bottom_article */
+
+.bottom_article {
+	display: grid;
+	grid-template-columns: 30% 70%;
+	padding: 10px;
+	background-color: white;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+.bottom_article img {
+	width: 100%;
+	height: 85%;
+	align-self: center;
+}
+
+.bottom_article p {
+	padding-left: 20px;
+}
+
+/* Ending bottom_article */
