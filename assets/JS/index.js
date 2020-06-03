@@ -17,10 +17,15 @@ function Makecounter() {
 	}
 }
 
+function random() {
+	let number = Math.floor(Math.random()*255).toString(16);
+	return number.length == 1 ? 0+number : number;
+}
+
 function randomColor() {
-	const red = Math.floor(Math.random()*255).toString(16);
-	const green = Math.floor(Math.random()*255).toString(16);
-	const blue = Math.floor(Math.random()*255).toString(16);
+	const red = random();
+	const green = random();
+	const blue = random();
 
 	return `#${red}${green}${blue}`;
 }
@@ -43,3 +48,6 @@ list.map(item => {
 		console.log("I'm a list");
 	});
 });
+
+
+module.exports = { Makecounter, randomColor, random }

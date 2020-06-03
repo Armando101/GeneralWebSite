@@ -1,0 +1,21 @@
+{
+  "name": "GeneralSite",
+  "version": "1.0.0",
+  "description": "You can find five sections: 1. Home 2. About 3. Portfolio 4. Blog 5. Contact",
+  "main": "index.js",
+  "scripts": {
+    "start": "static-server",
+    "test": "jest assets/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Armando101/GeneralWebSite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Armando101/GeneralWebSite/issues"
+  },
+  "homepage": "https://github.com/Armando101/GeneralWebSite#readme"
+}
